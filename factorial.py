@@ -1,8 +1,8 @@
 def factorial(num):
-	fac_num = 0
+	fac = 1
 	for i in range(num, 0, -1):
-		fac_num *= i
-		return fac_num
+		fac *= i
+	return fac
 
 print(factorial(4))
 
